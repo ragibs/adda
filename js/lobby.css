@@ -49,7 +49,7 @@
   background-color: #3f434a;
 }
 
-.form__field__wrapper button[type="submit"] {
+.form__field__wrapper button[type='submit'] {
   margin-top: 32px;
   cursor: pointer;
   background-color: #845695;
@@ -65,13 +65,13 @@
   gap: 10px;
 }
 
-.form__field__wrapper button[type="submit"] svg {
+.form__field__wrapper button[type='submit'] svg {
   fill: #ede0e0;
   width: 20px;
 }
 
 #avatar__selection {
-  margin-right: 10px;
+  margin-reight: 10px;
   display: flex;
   gap: 1em;
 }
@@ -86,5 +86,5 @@
 }
 
 .avatar__option__selected {
-  border: 3px solid #8456;
+  border: 3px solid #845695;
 }
