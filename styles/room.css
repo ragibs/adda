@@ -126,7 +126,7 @@
 
 .message__author__bot {
   margin-right: 10px;
-  color: #a52aca !important;
+  color: #8446e9 !important;
 }
 
 .message__text {
@@ -204,17 +204,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #b366f9;
+  border: 2px solid #8446e9;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
   height: 300px;
   width: 300px;
+
   background-image: url("/images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75px;
 }
+
 .video-player {
   height: 100%;
   width: 100%;
@@ -330,5 +332,5 @@
 .stream__actions button.active,
 .stream__actions a:hover,
 .stream__actions button:hover {
-  background-color: #845695;
+  background-color: #8446e9;
 }

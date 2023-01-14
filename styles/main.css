@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* width */
@@ -27,8 +27,8 @@
 }
 
 body {
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: #263238;
+  color: #ede0e0;
 
   font-size: 14px;
   padding: 0;
@@ -64,7 +64,7 @@ a {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #000000;
-  background-color: #1a1a1a;
+  background-color: #263238;
   text-decoration: none;
   padding: 16px 5%;
   z-index: 999;
@@ -102,7 +102,7 @@ a {
 }
 
 .nav__link {
-  color: #fff;
+  color: #ede0e0;
   text-decoration: none;
   transition: 1s;
   border-bottom: 2px solid transparent;
@@ -124,7 +124,7 @@ a {
 
 #create__room__btn {
   display: block;
-  background-color: #845695;
+  background-color: #8446e9;
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 500;
@@ -132,7 +132,7 @@ a {
 }
 
 #create__room__btn:hover {
-  background-color: #845695;
+  background-color: #985ff3;
 }
 
 .nav--list {

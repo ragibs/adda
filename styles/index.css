@@ -1,0 +1,127 @@
+.hero__header {
+  color: #985ff3;
+}
+.hero__subtitle {
+  color: #263238;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 8%;
+  background: rgb(237, 224, 224);
+  background: linear-gradient(
+    127deg,
+    rgba(237, 224, 224, 1) 55%,
+    rgba(152, 95, 243, 1) 100%
+  );
+  padding-bottom: 50px;
+}
+
+.text__container {
+  padding: 0 50px;
+}
+
+.hero__buttons {
+  border: none;
+  display: block;
+  color: #ede0e0;
+  background-color: #8446e9;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.hero__buttons:hover {
+  background-color: #985ff3;
+}
+.hero__img {
+  max-width: 700px;
+}
+.hero__header {
+  font-size: 42px;
+}
+
+.hero__subtitle {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.hero__btn-container {
+  display: flex;
+  gap: 6px;
+}
+
+.why-adda__container {
+  padding-top: 30px;
+  background-color: #ede0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.why-adda__text-container {
+  padding: 0 50px;
+}
+.why-adda__text-why {
+  color: #263238;
+}
+.why-adda__header {
+  color: #8446e9;
+}
+
+.why-adda__subtitle {
+  color: #263238;
+}
+
+.why-adda-cards {
+  height: 300px;
+  width: 300px;
+  color: #8446e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.why-adda__card-img {
+  height: 200px;
+}
+.why-adda__card-header {
+  color: #8446e9;
+  margin-bottom: 0;
+}
+.why-adda__card-text {
+  color: #263238;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .hero {
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    max-height: 800px;
+  }
+  .hero__img {
+    min-width: 400px;
+  }
+  .text__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 7%;
+  }
+  .image__container {
+    width: 50%;
+  }
+}
