@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Adda</h1>
 
-<p id="description">A video conference app built using a couple of Agora SDKs. I use Agora's real-time connection SDK for the video conference functionality and the real-time messaging SDK for the chat functionality</p>
+<p id="description">Adda is a powerful video conferencing app that enables users to connect with others through group video calls, screen sharing, and real-time messaging. The web app was built using a couple of Agora SDKs. I used Agora's real-time connection SDK for the video conference functionality and the real-time messaging SDK for the chat functionality</p>
 
  <h2>🚀 Demo</h2>
 
@@ -47,7 +47,7 @@ Here're some of the project's best features:
 <p>1. To start using this app you first need to clone the repository:</p>
 
 ```
-git clone https://github.com/ragibs/in-stock
+git clone https://github.com/ragibs/adda
 ```
 
 <p>2. Sign up with Agora and get your App ID:</p>
