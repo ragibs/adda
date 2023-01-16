@@ -1,4 +1,4 @@
-const APP_ID = "3e1fc5c61cc5484ab6bbca9a2a944e69";
+const APP_ID = "your api key";
 
 let uid = sessionStorage.getItem("uid");
 if (!uid) {
@@ -15,9 +15,10 @@ let channel;
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 let roomId = urlParams.get("room");
+document.getElementById("roomId").innerText = roomId;
 
 if (!roomId) {
-  roomId = "main";
+  window.location = "lobby.html";
 }
 
 let displayName = localStorage.getItem("display_name");

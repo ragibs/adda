@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: #263238;
+  background-color: #ede0e0;
   color: #ede0e0;
 
   font-size: 14px;
@@ -56,6 +56,21 @@ a {
 }
 
 #nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  background-color: #263238;
+  text-decoration: none;
+  padding: 16px 5%;
+  z-index: 999;
+}
+
+#nav-room {
   position: fixed;
   top: 0;
   width: 100%;
@@ -91,7 +106,7 @@ a {
   height: 42px;
 }
 
-#nav a {
+#nav #nav-room a {
   text-decoration: none;
 }
 

@@ -143,14 +143,14 @@
 }
 
 #message__form input {
-  color: #fff;
+  color: #8446e9;
   width: 100%;
   border: none;
   border-radius: 5px;
   padding: 18px;
   font-size: 14px;
   box-sizing: border-box;
-  background-color: #3f434a;
+  background-color: #ede0e0;
 }
 
 #message__form input:focus {
@@ -329,8 +329,10 @@
 }
 
 .stream__actions a.active,
-.stream__actions button.active,
+.stream__actions button.active {
+  background-color: #8446e9;
+}
 .stream__actions a:hover,
 .stream__actions button:hover {
-  background-color: #8446e9;
+  background-color: #266483;
 }
