@@ -74,5 +74,12 @@ Technologies used in the project:
 *   Agora RTM SDK
 *   Agora RTC SDK
 
+<h2>👩‍💻 How to use the app</h2>
+
+
+* Navigate to the room page and click on "Create Room" on the navbar
+* Enter your name and leave the Room ID blank. The app will generate a Room ID for you.
+* Once you have joined a room, you can find your Room ID on the top right of the navbar
+* Share the Room ID with your friends and ask them to join the room with the Room ID.
 
 
